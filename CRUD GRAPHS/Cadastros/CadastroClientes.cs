@@ -49,21 +49,29 @@ namespace CRUD_GRAPHS.Cadastros {
         private void botaoSalvar_Click(object sender, EventArgs e) {
             string nomeCliente;
             string tipoDeDocumento;
-            int numeroDocumento;
+            double numeroDocumento;
             string emailCliente;
             int telefoneCliente1;
             int telefoneCliente2;
             string enderecoCliente;
             int numeroEndereco;
             string complementoEndereco;
+            int cepEndereco;
             string bairroEndereco;
             string cidadeEndereco;
 
             nomeCliente = textNome.Text;
             tipoDeDocumento = comboBoxTipo.Text;
-            numeroDocumento = Convert.ToInt32(textDocumento.Text);
+            numeroDocumento = double.Parse(textDocumento.Text);
             emailCliente = textEmail.Text;
-            telefoneCliente1 = Convert.ToInt32(maskedTelefone1.Text);
+            telefoneCliente1 = Convert.ToInt32(maskedTelefone1.Text); // colocar outra variável, uma vez que Int32 não tem espaço para armazenar
+            telefoneCliente2 = Convert.ToInt32(maskedTelefone2.Text);
+            enderecoCliente = textEndereco.Text;
+            numeroEndereco = Convert.ToInt32(textNumero.Text);
+            complementoEndereco = textComplemento.Text;
+            cepEndereco = Convert.ToInt32(maskedCep.Text);
+            bairroEndereco = textBairro.Text;
+            cidadeEndereco = textCidade.Text;
         }
     }
 }

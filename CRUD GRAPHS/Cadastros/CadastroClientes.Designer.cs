@@ -33,23 +33,23 @@
             this.labelDocumento = new System.Windows.Forms.Label();
             this.textDocumento = new System.Windows.Forms.TextBox();
             this.labelEndeco = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textEndereco = new System.Windows.Forms.TextBox();
             this.labelNumero = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textNumero = new System.Windows.Forms.TextBox();
             this.labelComplemento = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textComplemento = new System.Windows.Forms.TextBox();
             this.labelCep = new System.Windows.Forms.Label();
             this.labelBairro = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBairro = new System.Windows.Forms.TextBox();
+            this.textCidade = new System.Windows.Forms.TextBox();
             this.labelCidade = new System.Windows.Forms.Label();
             this.labelUf = new System.Windows.Forms.Label();
             this.textEmail = new System.Windows.Forms.TextBox();
             this.labelTel1 = new System.Windows.Forms.Label();
             this.labelTel2 = new System.Windows.Forms.Label();
             this.maskedTelefone1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTelefone2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedCep = new System.Windows.Forms.MaskedTextBox();
             this.labelDataCadastro = new System.Windows.Forms.Label();
             this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.botaoSalvar = new System.Windows.Forms.Button();
@@ -138,12 +138,12 @@
             this.labelEndeco.TabIndex = 8;
             this.labelEndeco.Text = "Endereço";
             // 
-            // textBox4
+            // textEndereco
             // 
-            this.textBox4.Location = new System.Drawing.Point(26, 199);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(414, 23);
-            this.textBox4.TabIndex = 9;
+            this.textEndereco.Location = new System.Drawing.Point(26, 199);
+            this.textEndereco.Name = "textEndereco";
+            this.textEndereco.Size = new System.Drawing.Size(414, 23);
+            this.textEndereco.TabIndex = 9;
             // 
             // labelNumero
             // 
@@ -155,12 +155,12 @@
             this.labelNumero.Text = "Nº";
             this.labelNumero.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox5
+            // textNumero
             // 
-            this.textBox5.Location = new System.Drawing.Point(455, 199);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(85, 23);
-            this.textBox5.TabIndex = 11;
+            this.textNumero.Location = new System.Drawing.Point(455, 199);
+            this.textNumero.Name = "textNumero";
+            this.textNumero.Size = new System.Drawing.Size(85, 23);
+            this.textNumero.TabIndex = 11;
             // 
             // labelComplemento
             // 
@@ -171,12 +171,12 @@
             this.labelComplemento.TabIndex = 12;
             this.labelComplemento.Text = "Complemento";
             // 
-            // textBox6
+            // textComplemento
             // 
-            this.textBox6.Location = new System.Drawing.Point(26, 243);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(375, 23);
-            this.textBox6.TabIndex = 13;
+            this.textComplemento.Location = new System.Drawing.Point(26, 243);
+            this.textComplemento.Name = "textComplemento";
+            this.textComplemento.Size = new System.Drawing.Size(375, 23);
+            this.textComplemento.TabIndex = 13;
             // 
             // labelCep
             // 
@@ -196,19 +196,19 @@
             this.labelBairro.TabIndex = 16;
             this.labelBairro.Text = "Bairro";
             // 
-            // textBox8
+            // textBairro
             // 
-            this.textBox8.Location = new System.Drawing.Point(26, 287);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(169, 23);
-            this.textBox8.TabIndex = 17;
+            this.textBairro.Location = new System.Drawing.Point(26, 287);
+            this.textBairro.Name = "textBairro";
+            this.textBairro.Size = new System.Drawing.Size(169, 23);
+            this.textBairro.TabIndex = 17;
             // 
-            // textBox9
+            // textCidade
             // 
-            this.textBox9.Location = new System.Drawing.Point(210, 287);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(191, 23);
-            this.textBox9.TabIndex = 18;
+            this.textCidade.Location = new System.Drawing.Point(210, 287);
+            this.textCidade.Name = "textCidade";
+            this.textCidade.Size = new System.Drawing.Size(191, 23);
+            this.textCidade.TabIndex = 18;
             // 
             // labelCidade
             // 
@@ -262,21 +262,21 @@
             this.maskedTelefone1.Size = new System.Drawing.Size(106, 23);
             this.maskedTelefone1.TabIndex = 27;
             // 
-            // maskedTextBox2
+            // maskedTelefone2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(434, 126);
-            this.maskedTextBox2.Mask = "(00) 00000-9999";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(106, 23);
-            this.maskedTextBox2.TabIndex = 28;
+            this.maskedTelefone2.Location = new System.Drawing.Point(434, 126);
+            this.maskedTelefone2.Mask = "(00) 00000-9999";
+            this.maskedTelefone2.Name = "maskedTelefone2";
+            this.maskedTelefone2.Size = new System.Drawing.Size(106, 23);
+            this.maskedTelefone2.TabIndex = 28;
             // 
-            // maskedTextBox3
+            // maskedCep
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(407, 243);
-            this.maskedTextBox3.Mask = "00000-000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(133, 23);
-            this.maskedTextBox3.TabIndex = 29;
+            this.maskedCep.Location = new System.Drawing.Point(407, 243);
+            this.maskedCep.Mask = "00000-000";
+            this.maskedCep.Name = "maskedCep";
+            this.maskedCep.Size = new System.Drawing.Size(133, 23);
+            this.maskedCep.TabIndex = 29;
             // 
             // labelDataCadastro
             // 
@@ -326,23 +326,23 @@
             this.Controls.Add(this.botaoSalvar);
             this.Controls.Add(this.maskedTextBox4);
             this.Controls.Add(this.labelDataCadastro);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.maskedCep);
+            this.Controls.Add(this.maskedTelefone2);
             this.Controls.Add(this.maskedTelefone1);
             this.Controls.Add(this.labelTel2);
             this.Controls.Add(this.labelTel1);
             this.Controls.Add(this.textEmail);
             this.Controls.Add(this.labelUf);
             this.Controls.Add(this.labelCidade);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textCidade);
+            this.Controls.Add(this.textBairro);
             this.Controls.Add(this.labelBairro);
             this.Controls.Add(this.labelCep);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textComplemento);
             this.Controls.Add(this.labelComplemento);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textNumero);
             this.Controls.Add(this.labelNumero);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textEndereco);
             this.Controls.Add(this.labelEndeco);
             this.Controls.Add(this.textDocumento);
             this.Controls.Add(this.labelDocumento);
@@ -372,23 +372,23 @@
         private Label labelDocumento;
         private TextBox textDocumento;
         private Label labelEndeco;
-        private TextBox textBox4;
+        private TextBox textEndereco;
         private Label labelNumero;
-        private TextBox textBox5;
+        private TextBox textNumero;
         private Label labelComplemento;
-        private TextBox textBox6;
+        private TextBox textComplemento;
         private Label labelCep;
         private Label labelBairro;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox textBairro;
+        private TextBox textCidade;
         private Label labelCidade;
         private Label labelUf;
         private TextBox textEmail;
         private Label labelTel1;
         private Label labelTel2;
         private MaskedTextBox maskedTelefone1;
-        private MaskedTextBox maskedTextBox2;
-        private MaskedTextBox maskedTextBox3;
+        private MaskedTextBox maskedTelefone2;
+        private MaskedTextBox maskedCep;
         private Label labelDataCadastro;
         private MaskedTextBox maskedTextBox4;
         private Button botaoSalvar;
